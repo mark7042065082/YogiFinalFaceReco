@@ -1,0 +1,13 @@
+train: /content/Licence-Plate-Detection-using-YOLO-V8/Yogi-1/train/images
+val: /content/Licence-Plate-Detection-using-YOLO-V8/Yogi-1/valid/images
+test: /content/Licence-Plate-Detection-using-YOLO-V8/Yogi-1/test/images
+
+nc: 1
+names: ['yogi']
+
+roboflow:
+  workspace: school-itjwi
+  project: yogi-rqmer
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-itjwi/yogi-rqmer/dataset/1
