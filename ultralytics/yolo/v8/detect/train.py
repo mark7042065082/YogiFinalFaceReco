@@ -209,9 +209,9 @@ def train(cfg):
 if __name__ == "__main__":
     """
     CLI usage:
-    python ultralytics/yolo/v8/detect/train.py model=yolov8n.yaml data=coco128 epochs=100 imgsz=640
+    python ultralytics/yolo/v8/detect/train.py model=yolov8n.yaml data=data epochs=10 imgsz=640
 
     TODO:
-    yolo task=detect mode=train model=yolov8n.yaml data=coco128.yaml epochs=100
+    yolo task=detect mode=train model=yolov8n.yaml data=data.yaml epochs=10
     """
     train()
